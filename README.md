@@ -3,6 +3,13 @@
 A python "tool" for "interacting" with the terminals of "friends" and 
 "colleagues".
 
+## Installation
+
+    pip install disrupt
+
+`pex` packages are planned to enable downloading and running without 
+installation.
+
 ## Usage
 
 Get a list of users on the box you're on, and take a note of the terminal:
