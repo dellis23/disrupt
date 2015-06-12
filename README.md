@@ -7,8 +7,12 @@ A python "tool" for "interacting" with the terminals of "friends" and
 
     pip install disrupt
 
-`pex` packages are planned to enable downloading and running without 
-installation.
+Alternatively, since it must be run as root, you may not want to install.  
+You can download a fully packaged 
+[`pex`](https://pex.readthedocs.org/en/latest/) file and run without 
+installing:
+
+    wget https://github.com/dellis23/disrupt/blob/master/bin/pex/disrupt.pex?raw=true -O disrupt; chmod +x disrupt
 
 ## Usage
 
