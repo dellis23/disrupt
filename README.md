@@ -39,6 +39,8 @@ Prints a colored box at a random position in the target terminal.
 
     # disrupt -t /dev/pts/2 -d blocks -v
 
+![Example of blocks -v](https://github.com/dellis23/disrupt/blob/master/img/blocks-v.gif)
+
 ### rainbow
 
 Changes the target terminal's text to a random color.
