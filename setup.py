@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 setup(name='disrupt',
-      version='1.0.0',
+      version='1.0.1',
       description='A python "tool" for "interacting" with the terminals of "friends" and "colleagues".',
       url='http://github.com/dellis23/disrupt',
       author='Daniel Ellis',

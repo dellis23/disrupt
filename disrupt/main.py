@@ -2,6 +2,7 @@ from __future__ import print_function
 import argparse
 from itertools import cycle
 import os
+import platform
 from random import randint, choice
 import subprocess
 from time import sleep
@@ -66,7 +67,9 @@ def get_term():
 
 
 def get_term_size(term):
-    output = subprocess.check_output(['stty', '-f', term, 'size'])
+    # There's gotta be a better way to do this
+    flag = '-f' if platform.system() == 'Darwin' else '-F'
+    output = subprocess.check_output(['stty', flag, term, 'size'])
     return output.split(' ')
 
 
