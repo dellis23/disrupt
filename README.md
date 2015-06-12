@@ -61,6 +61,12 @@ Changes the target terminal's text to a random color.
 
     # disrupt -t /dev/pts/2 -d rainbow -v
 
+![Example of rainbow -v](https://github.com/dellis23/disrupt/blob/master/img/rainbow-v.gif)
+
+    # disrupt -t /dev/pts/2 -d rainbow -vvvvv
+
+![Example of rainbow -vvvvv](https://github.com/dellis23/disrupt/blob/master/img/rainbow-vvvvv.gif)
+
 ### jitter
 
 Randomly moves the cursor one movement up, down, left, or right.
@@ -68,6 +74,16 @@ Randomly moves the cursor one movement up, down, left, or right.
 #### Examples
 
     # disrupt -t /dev/pts/2 -d jitter -v
+
+![Example of jitter -v](https://github.com/dellis23/disrupt/blob/master/img/jitter-v.gif)
+
+    # disrupt -t /dev/pts/2 -d jitter -vvv
+
+![Example of jitter -vvv](https://github.com/dellis23/disrupt/blob/master/img/jitter-vvv.gif)
+
+    # disrupt -t /dev/pts/2 -d jitter -vvvvv
+
+![Example of jitter -vvvvv](https://github.com/dellis23/disrupt/blob/master/img/jitter-vvvvv.gif)
 
 ### wipe
 
@@ -77,6 +93,12 @@ Clears the screen.
 
     # disrupt -t /dev/pts/2 -d wipe -v
 
+![Example of wipe -v](https://github.com/dellis23/disrupt/blob/master/img/wipe-v.gif)
+
+    # disrupt -t /dev/pts/2 -d wipe -vvvvv
+
+![Example of wipe -vvvvv](https://github.com/dellis23/disrupt/blob/master/img/wipe-vvvvv.gif)
+
 ### hide
 
 Randomly hides or shows the cursor.  Requires the user to type a key for
@@ -85,6 +107,8 @@ it to take effect, so verbosity is basically just maximum.
 #### Examples
 
     # disrupt -t /dev/pts/2 -d hide
+
+![Example of hide](https://github.com/dellis23/disrupt/blob/master/img/hide.gif)
 
 ### beep
 
